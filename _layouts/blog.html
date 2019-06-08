@@ -44,11 +44,12 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
+						{% assign mod2 = forloop.index | modulo: 2 %}
 							<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+									<span class="data">{{ post.author }}</span>
 								</header>
 								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
 								<p>{{ post.excerpt }}</p>
@@ -56,15 +57,15 @@
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
 							</article>
-							{% if mod3 == 0 %}
+						{% endfor %}
+						{% if mod2 != 0 %}
 							<article>
 								<header>
-									<h2><a href="#">Sponsored</a></h2>
+									<h2>We left it empty for you to fill.</h2>
 								</header>
 
 							</article>
-							{% endif %}
-						{% endfor %}
+						{% endif %}
 
 					</section>
 

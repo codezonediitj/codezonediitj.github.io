@@ -9,9 +9,7 @@ sitemap:
 ---
 ## About Resources
 
-This page contains resources of computer science. If you too have something to contribute, make a PR by editing this file and we will merge if it looks good.
-
-All the resources are grouped into sets, with a minimum size of 5 links. If your PR will be having less than 5 links then just add them to an existing set otherwise make a different set. Don't worry it will take constant time, it's not C++ set.
+This page contains resources for computer science. If you too have something to contribute, make a PR by editing this file and we will merge if it looks good.
 
 <div class="box" markdown="1">
 ### Set 1

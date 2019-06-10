@@ -52,15 +52,15 @@ sitemap:
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">So what's actually CodeZoned is?</a></h2>
+									<h2><a href="#">So what actually CodeZoned is?</a></h2>
 									<p>For us computer science is less of a subject and more of a girlfriend or boyfriend, depends ;-) We learn AI, ML, DL, CP, and obviously the underlying mathematics.<br/>
 									Uh! we were too busy with CS that we didn't have the time to edit the pic below. Make a PR if you have a better one.</p>
 								</header>
 								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>So let's give you a complete overview. We basically are a group of people on <a href="https://gitter.im/codezoned2017/Lobby">gitter</a> and whatsapp and there we share a lot of tech doubts, some useful resources for learning.
-									We firmly believe in open sourcing things. Till now we have a huge collection of resources from a lot of contributors, licensed under the MIT license.
+                <p>So let's give you a complete overview. We basically are a group of people on <a href="https://gitter.im/codezoned2017/Lobby">gitter</a> and whatsapp and there we share, a lot of tech doubts, some useful resources for learning.
+									We firmly believe in open sourcing stuff. Till now we have a huge collection of resources from a lot of contributors, licensed under the MIT license.
 								</p>
-                <p>As you can see in navbar, we have TechInfo blog, where you can write your own thoughts about tech. Check it out and have an idea. Just make a PR to the website's code at our repo.
+                <p>As you can see in the navbar, we have a blog, known as TechInfo, where you can write your own thoughts about tech. Check it out and get some idea. To add your blog entry, just make a PR to the website's repo.
 									It will be up as soon as it is merged.
 								</p>
 								<p>
@@ -72,8 +72,7 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
+                {% for post in site.posts limit:4 %}
   								<article>
   									<header>
   										<span class="date">{{ post.date | date_to_string }}</span>
@@ -85,14 +84,6 @@ sitemap:
   										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
   									</ul>
   								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
                 {% endfor %}
 
 							</section>

@@ -336,6 +336,27 @@ This page contains resources for computer science. If you too have something to 
 [IoT+ML](https://info.boltiot.com/iotmlengineers)<br/>
 [TechGuyWeb](https://www.youtube.com/user/TechGuyWeb)<br/>
 [Guide for College Projects](https://shop.boltiot.com/blogs/engineeringstudents/guaranteed-way-to-make-your-college-projects-excellent)<br/>
+[Networking Basics](https://www.youtube.com/playlist?list=PLdFppKg4UodjGN8nAhojxWyncoEdwTfqf)<br/>
+[Self-Driving Fundamentals](https://in.udacity.com/course/self-driving-car-fundamentals-featuring-apollo--ud0419?utm_source=linkedin-us&utm_medium=social&utm_campaign=apollo)<br/>
+</div>
+<div class="box" markdown="1">
+### Set 42
+[Computer Networks](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-829-computer-networks-fall-2002/)<br/>
+[Python for Everybody](https://youtu.be/8DvywoWv6fI)<br/>
+[The Algorithms](https://github.com/TheAlgorithms)<br/>
+[ML Resources](https://sgfin.github.io/learning-resources/)
+[Operating Systems](https://www.youtube.com/playlist?list=PLEbnTDJUr_If_BnzJkkN_J0Tl3iXTL8vq)<br/>
+</div>
+<div class="box" markdown="1">
+### Set 43
+[ES10: Symbol, A datatype](https://link.medium.com/Lc7YfOTUrW)<br/>
+[Node.JS](https://www.udemy.com/the-complete-nodejs-developer-course-2/)<br/>
+[Node.JS: For Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)<br/>
+[ML Resources](https://sgfin.github.io/learning-resources/)<br/>
+[Constants C++](http://www.cplusplus.com/doc/tutorial/constants/)<br/>
+[Historical Weather Data](https://www.kaggle.com/selfishgene/historical-hourly-weather-data)<br/>
+[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)<br/>
+[Fast.AI](fast.ai)<br/>
 </div>
 
 ### Contributors
@@ -345,7 +366,6 @@ This page contains resources for computer science. If you too have something to 
 [Abhishek Kumar Shukla](https://www.linkedin.com/in/abhishek-shukla-661635151)<br/>
 [Vaibhav Tripathi](http://linkedin.com/in/vvtrip)<br/>
 [Nitish Tiwari](https://www.linkedin.com/in/kumarnitish1996)<br/>
-[Self-Driving Fundamentals](https://in.udacity.com/course/self-driving-car-fundamentals-featuring-apollo--ud0419?utm_source=linkedin-us&utm_medium=social&utm_campaign=apollo)<br/>
 [Sirjanpreet Singh Banga](https://www.linkedin.com/in/sirjanpreet-singh-banga-284291115/)<br/>
 [Deepansh Bhargava](https://www.linkedin.com/in/deepansh946)<br/>
 [Vedansh Priyadarshi](http://linkedin.com/in/pristineVedansh)<br/>
@@ -364,7 +384,8 @@ This page contains resources for computer science. If you too have something to 
 [Shivanshu Srivastava](https://www.linkedin.com/in/shivanshu-srivastava-046a53133)<br/>
 [Tarsbir Singh](https://www.linkedin.com/in/tarsbir-singh/)<br/>
 [Rakesh Roshan](https://www.linkedin.com/in/rakesh-raushan-143484156/)<br/>
-[Vedansh Priyadashi](https://www.linkedin.com/in/pristinevedansh)<br/>
 [Adit Mehta](https://www.linkedin.com/in/adit-mehta-169137159)<br/>
 [Ashutosh Ray](https://www.linkedin.com/in/ashuray/)<br/>
 [Nivedit Jain](https://www.linkedin.com/in/nivedit-jain-8132b4148/)<br/>
+[Mohammad Arshad](https://www.linkedin.com/in/arshad404/)<br/>
+[Kartikei Mittal](https://www.linkedin.com/in/kartikei-mittal-a2177b16b)

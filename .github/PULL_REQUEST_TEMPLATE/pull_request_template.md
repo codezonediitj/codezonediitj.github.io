@@ -1,3 +1,5 @@
+<!--DO NOT include issue number in the title. Make sure that all the commits are squashed into one. Keep your patch as clean as possible.-->
+
 ### Type of Change:
 **Delete irrelevant options.**
 
@@ -9,7 +11,7 @@
 
 Fixes # [ISSUE NUMBER HERE]
 
-<!--Include a brief summary of the changes made in no more than 15 words. Always write in third person. For example: "CZ supports <feature-name>" or CZ has removed <bug-name>-->
+<!--Include a brief summary of the changes made in no more than 15 words. Always write in third person. For example: "CZ supports <feature-name>" or "CZ has removed <bug-name>"-->
 
 ### Screenshots
 

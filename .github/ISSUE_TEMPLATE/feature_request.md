@@ -10,4 +10,4 @@ labels: enhancement
 <!--A clear and concise description of what you want to happen.-->
 
 **Other Comments**
-Add any other comments or screenshots about the feature request here.
+<!--Add any other comments or screenshots about the feature request here.-->

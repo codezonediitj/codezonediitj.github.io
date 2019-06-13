@@ -27,4 +27,4 @@ labels: bug
 - Dimensions of the screen
 
 **Other Comments**
-Add any other comments about the problem here.
+<!--Add any other comments about the problem here.-->

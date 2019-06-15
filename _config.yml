@@ -4,10 +4,10 @@ bio:                'Community of CS enthusiasts'
 description:        "Community of CS enthusiasts"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: ""
 
 # Comments
-disqus_shortname:   default
+disqus_shortname:   codezonediitj
 
 # Social
 analytics-id:       "default"

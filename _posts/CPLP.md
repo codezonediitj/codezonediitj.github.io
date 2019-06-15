@@ -1,12 +1,12 @@
-
-
 ***
 #   Competitive Programming Learning Path
-## Contributers
+## Contributors
 
 Vedansh Priyadarshi [vedansh.priyadarshi@gmail.com](vedansh.priyadarshi@gmail.com) 
 
-Gagandeep Singh [czgdp1807@gmail.com](czgdp1807@gmail.com)
+Gagandeep Singh [singh.23@iitj.ac.in](singh.23@iitj.ac.in)
+
+Harshal Desai [harshaldesai01@gmail.com](harshaldesai01@gmail.com)
 
                                     An open initiative by
                                          CodeZoned

@@ -72,20 +72,26 @@ sitemap:
 
 						<!-- Posts -->
 							<section class="posts">
-                {% for post in site.posts limit:4 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                {% endfor %}
-
+				{% assign counter = 0 %}
+				{% for post in site.posts %}
+									{% if post.is_pinned == true and counter < 2 %}
+									<article>
+										<header>
+											<span class="date">{{ post.date | date_to_string }}</span>
+											<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+										</header>
+										<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+										<p>{{ post.excerpt }}</p>
+										<ul class="actions">
+											<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+										</ul>
+									</article>
+									{% assign counter=counter | plus:1 %}
+									{% if counter >= 2 %}
+									{% break %}
+									{% endif %}
+									{% endif %}
+				{% endfor %}
 							</section>
 
 						<!-- Footer -->

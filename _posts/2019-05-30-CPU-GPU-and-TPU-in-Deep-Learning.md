@@ -5,6 +5,7 @@ date:   2019-05-30
 author: "Anukriti Jha"
 excerpt: "GPU (Graphical Processing Unit) is one of the most widely used processing unit used in training data models. It is a single processor chip which frees the CPU cycles from jobs of image processing and mathematical computations. For example, a game with a lot of graphics: many shadows to cast, lots of atmospheric effects, various lighting sources, complex textures, etc."
 image: "/images/benchmark-cpu-gpu.png"
+is_pinned: false
 ---
 
 GPU (Graphical Processing Unit) is one of the most widely used processing unit used in training data models. It is a single processor chip which frees the CPU cycles from jobs of image processing and mathematical computations. For example, a game with a lot of graphics: many shadows to cast, lots of atmospheric effects, various lighting sources, complex textures, etc. All these eat up extra GPU processing. Also, settings at higher resolutions means each single frame needs more such calculations to just display each pixel on that frame. Everything is handled by the GPU. When the GPU cannot remain at par with the CPU, it causes bottlenecks.

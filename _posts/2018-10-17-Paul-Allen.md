@@ -4,6 +4,7 @@ title:  "Paul Allen"
 date:   2018-10-17
 author: "Anukriti Jha"
 excerpt: "Co-founder of Microsoft recently passed away on 15th October. He founded Microsoft along with Bill gates in 1975, which went on to become one of the largest software companies in the world."
+is_pinned: false
 ---
 
 Co-founder of Microsoft recently passed away on 15th October. He founded Microsoft along with Bill gates in 1975, which went on to become one of the largest software companies in the world.

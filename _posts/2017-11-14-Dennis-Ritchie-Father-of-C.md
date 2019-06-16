@@ -4,6 +4,7 @@ title:  "Dennis Ritchie-Father of C"
 date:   2017-11-14
 author: "Gagandeep Singh"
 excerpt: "Dennis Ritchie, born on September 9, 1941 in Bronxville, New York, was the man who created the “C” programming language and hence, is known as the Father of the C programming language."
+is_pinned: false
 ---
 
 Dennis Ritchie, born on September 9, 1941 in Bronxville, New York, was the man who created the “C” programming language and hence, is known as the Father of the C programming language. Surprisingly, his father was a switching system engineer at Bell Laboratories, the birth place of pioneer languages, C and C++. Ritchie was a PhD in Mathematics in 1968 from Harvard University but later on went to the Massachusetts Institute of Technology. In this article, we will see the role of this legendary personality in the development of the C language and the UNIX.

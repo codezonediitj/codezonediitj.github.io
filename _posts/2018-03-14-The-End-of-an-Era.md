@@ -4,6 +4,7 @@ title:  "The End of an Era"
 date:   2018-03-14
 author: "Kunal Borse"
 excerpt: "The 14th of march marks the birth anniversary of the legendary physicist Albert Einstein. Stephen Hawking leaving us on this very day is quite symbolic and coincidental."
+is_pinned: false
 ---
 
 Once we accept our limits, we go beyond them.

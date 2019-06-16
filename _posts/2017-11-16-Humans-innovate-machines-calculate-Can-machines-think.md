@@ -4,6 +4,7 @@ title:  "Humans innovate, machines calculate-Can machines think?"
 date:   2017-11-16
 author: "Gagandeep Singh"
 excerpt: "CodeZoned’s TechInfo is back with one of the most debatable topics, “Humans innovate, machines calculate-Can machines think?”. Well, whenever we are given a problem, for instance, take a CodeZoned’s puzzle, then our innovative human mind, through the help of pre-acquired knowledge, begins to create a solution to that puzzle. However, the big question is, can machines ever do the same."
+is_pinned: false
 ---
 
 CodeZoned’s TechInfo is back with one of the most debatable topics, “Humans innovate, machines calculate-Can machines think?”. Well, whenever we are given a problem, for instance, take a CodeZoned’s puzzle, then our innovative human mind, through the help of pre-acquired knowledge, begins to create a solution to that puzzle. However, the big question is, can machines ever do the same. Can machines ever generate innovative algorithmic solutions to problems in a way that we create? Though the question has no specific answer and we are presenting here, our point of view on the topic.

@@ -4,6 +4,7 @@ title:  "Link Analysis-Why is it important?"
 date:   2017-11-14
 author: "Gagandeep Singh"
 excerpt: "When you search for CodeZoned using Facebook search bar, you receive the results almost instantly. Similarly, when Facebook shows you your news feed, something quite amazing is working behind it. That technique is known as Link Analysis. This post will add to your knowledge about the same."
+is_pinned: false
 ---
 
 When you search for CodeZoned using Facebook search bar, you receive the results almost instantly. Similarly, when Facebook shows you your news feed, something quite amazing is working behind it. That technique is known as Link Analysis. This post will add to your knowledge about the same.

@@ -4,6 +4,7 @@ title:  "Tony Stark"
 date:   2018-11-02
 author: "Sabyasachi Pradhan"
 excerpt: "Perhaps a decade ago, a scientist was a gray-haired man in a white labcoat and an engineer, was man in a yellow hard-hat drawing up plans in a large piece of chart paper. But today, the perception has irrevocably shifted towards a more romantic description of scientists..."
+is_pinned: false
 ---
 
 Perhaps a decade ago, a scientist was a gray-haired man in a white labcoat and an engineer, was man in a yellow hard-hat drawing up plans in a large piece of chart paper. But today, the perception has irrevocably shifted towards a more romantic description of scientists, and if a part of it was due to Dr. Neil deGrasse Tyson, the biggest contribution is on part of Tony Stark, genius, billionaire, playboy, philanthropist.

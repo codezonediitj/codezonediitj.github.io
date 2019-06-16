@@ -6,6 +6,7 @@ author: "Gagandeep Singh"
 excerpt: "+++++++[>++++++++++<-]>+++.>+++++++[>++++++++++<-]>++++.
 
 Confused? If yes, then I just wanted to say HI but the language here is the infamous esolang, the brainfuck. "
+is_pinned: false
 ---
 
 +++++++[>++++++++++<-]>+++.>+++++++[>++++++++++<-]>++++.

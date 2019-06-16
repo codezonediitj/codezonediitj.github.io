@@ -4,6 +4,7 @@ title:  "Google Lens-It's Amazing!!!"
 date:   2017-11-14
 author: "Gagandeep Singh"
 excerpt: "WiFi, the most needed thing among us. Here comes the Google Lens which can help you directly connect to the WiFi source that has been scanned."
+is_pinned: false
 ---
 
 WiFi, the most needed thing among us. Here comes the Google Lens which can help you directly connect to the WiFi source that has been scanned. Yes, you read that right. It sounds amazing. Just point your camera to anything, and Google Lens will let you know what it is. This feature was announced by Google during Google I/O 2017 on 4th October, 2017. Let's see how it works and what makes it so amazing.

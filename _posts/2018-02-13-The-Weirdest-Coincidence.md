@@ -4,6 +4,7 @@ title:  "The Weirdest Coincidence"
 date:   2018-02-13
 author: "Kunal Borse"
 excerpt: "While thinking about the ‘Kaprekar constant’, I came across another constant. The following constant is defined for a four digited number. The process to be followed is described below."
+is_pinned: false
 ---
 
 While thinking about the ‘Kaprekar constant’, I came across another constant. The following constant is defined for a four digited number. The process to be followed is described below.

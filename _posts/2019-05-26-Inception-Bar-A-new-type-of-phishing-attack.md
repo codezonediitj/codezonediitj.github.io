@@ -5,6 +5,7 @@ date:   2019-05-26
 author: "Anukriti Jha"
 excerpt: "Developer James Fischer recently documented a possible phishing attack which works by masking the URL bar of the Chrome for mobile and show a fake URL instead. This new fake bar has been dubbed as the ‘inception bar’."
 image: "/images/pishing.png"
+is_pinned: false
 ---
 
 Developer James Fischer recently documented a possible phishing attack which works by masking the URL bar of the Chrome for mobile and show a fake URL instead. This new fake bar has been dubbed as the ‘inception bar’.

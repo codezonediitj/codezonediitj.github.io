@@ -4,6 +4,7 @@ title:  "Ada Lovelace: First Computer Programmer"
 date:   2018-10-10
 author: "Anukriti Jha"
 excerpt: "The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. - Ada Byron Lovelace"
+is_pinned: false
 ---
 
 The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform. - Ada Byron Lovelace

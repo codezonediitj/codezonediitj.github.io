@@ -4,6 +4,7 @@ title:  "The Man Who Knew Infinity"
 date:   2017-12-23
 author: "Sabyasachi Pradhan"
 excerpt: "Michio Kaku aptly describes S. Ramanujan as seen through the eyes of his colleagues, 'Srinivasa Ramanujan was the strangest man in all of mathematics, probably in the entire history of Science.'"
+is_pinned: false
 ---
 
 Michio Kaku aptly describes S. Ramanujan as seen through the eyes of his colleagues, "Srinivasa Ramanujan was the strangest man in all of mathematics, probably in the entire history of Science."

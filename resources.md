@@ -117,8 +117,7 @@ This page contains resources for computer science. If you too have something to 
 </div>
 <div class="box" markdown="1" id="14">
 ### Set 14
-[Django Material](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)<br/>
-[Abhishek Nanda](https://www.facebook.com/NandaAbhishek118/)<br/>
+[Flask Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH)<br/>
 [Downloading Eclipse](https://youtu.be/CE8UIbb_4iM)<br/>
 [Statistics Course](https://drive.google.com/open?id=1KNXynRRyV_p1hh0a0ZCrAHqijJdw4lNW)<br/>
 [Arduino Material](https://www.makerspaces.com/arduino-uno-tutorial-beginners/)<br/>
@@ -389,5 +388,6 @@ This page contains resources for computer science. If you too have something to 
 [Ashutosh Ray](https://www.linkedin.com/in/ashuray/)<br/>
 [Nivedit Jain](https://www.linkedin.com/in/nivedit-jain-8132b4148/)<br/>
 [Mohammad Arshad](https://www.linkedin.com/in/arshad404/)<br/>
-[Kartikei Mittal](https://www.linkedin.com/in/kartikei-mittal-a2177b16b)
+[Kartikei Mittal](https://www.linkedin.com/in/kartikei-mittal-a2177b16b)<br/>
+[Abhishek Nanda](https://www.facebook.com/NandaAbhishek118/)
 </div>

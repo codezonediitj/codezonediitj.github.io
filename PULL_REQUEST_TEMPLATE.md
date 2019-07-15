@@ -8,7 +8,7 @@
 
 #### Description
 
-Fixes # [ISSUE NUMBER HERE]
+Fixes #ISSUE_NUMBER_HERE
 
 <!--Include a brief summary of the changes made in no more than 15 words. Always write in third person. For example: "CZ supports <feature-name>" or "CZ has removed <bug-name>"-->
 

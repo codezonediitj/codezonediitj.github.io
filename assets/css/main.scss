@@ -73,55 +73,62 @@ $background_image: '{{site.background_image}}';
 	// Gitter icon styling
 
 	
-	.logo-left-arm {
-		-webkit-animation-name: tuck-arms;
-		animation-name: tuck-arms;
-		position: absolute;
-		left: 0;
-		top: 0;
-		background-color: white;
-		width: 1.8px;
-		height: 15px;
-	}
+.logo-left-arm {
+	-webkit-animation-name: tuck-arms;
+	animation-name: tuck-arms;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: white;
+	width: 1.8px;
+	height: 15px;
+}
 
-	.logo-body-left {
-		-webkit-animation-name: tuck-legs;
-		animation-name: tuck-legs;
-		position: absolute;
-		background-color: white;
-		left: 5px;
-		width: 1.8px;
-		top: 4px;
-		height: 20px;
-	}
+.logo-body-left {
+	-webkit-animation-name: tuck-legs;
+	animation-name: tuck-legs;
+	position: absolute;
+	background-color: white;
+	left: 5px;
+	width: 1.8px;
+	top: 4px;
+	height: 20px;
+}
 
-	.logo-body-right {
-		-webkit-animation-name: tuck-legs;
-		animation-name: tuck-legs;
-		position: absolute;
-		background-color: white;
-		left: 10px;
-		width: 1.8px;
-		top: 4px;
-		height: 20px;
-	}
+.logo-body-right {
+	-webkit-animation-name: tuck-legs;
+	animation-name: tuck-legs;
+	position: absolute;
+	background-color: white;
+	left: 10px;
+	width: 1.8px;
+	top: 4px;
+	height: 20px;
+}
 
-	.logo-right-arm {
-		-webkit-animation-name: tuck-arms;
-		animation-name: tuck-arms;
-		position: absolute;
-		left: 15px;
-		top: 4px;
-		background-color: white;
-		width: 1.8px;
-		height: 11px;
-	}
+.logo-right-arm {
+	-webkit-animation-name: tuck-arms;
+	animation-name: tuck-arms;
+	position: absolute;
+	left: 15px;
+	top: 4px;
+	background-color: white;
+	width: 1.8px;
+	height: 11px;
+}
 
-	.logo-holder {
-		position: relative;
-		width: 20px;
-		height: 24px;
-	}
+.logo-holder {
+	position: relative;
+	width: 20px;
+	height: 24px;
+}
+
+.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+transition-property: all;
+transition-duration: 0.3s;
+transition-timing-function: ease;
+transition-delay: 0s;
+}
 
 .gitter:hover {
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {

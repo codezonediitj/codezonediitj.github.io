@@ -135,3 +135,55 @@ transition-delay: 0s;
 		background-color: cyan;
 	}
 }
+
+
+@media only screen and (max-width: 1680px) {
+	.logo-left-arm {
+		-webkit-animation-name: tuck-arms;
+		animation-name: tuck-arms;
+		position: absolute;
+		left: px;
+		top: 0;
+		background-color: white;
+		width: 1.6px;
+		height: 15px;
+	}
+	
+	.logo-body-left {
+		-webkit-animation-name: tuck-legs;
+		animation-name: tuck-legs;
+		position: absolute;
+		background-color: white;
+		left: 5px;
+		width: 1.6px;
+		top: 4px;
+		height: 20px;
+	}
+	
+	.logo-body-right {
+		-webkit-animation-name: tuck-legs;
+		animation-name: tuck-legs;
+		position: absolute;
+		background-color: white;
+		left: 10px;
+		width: 1.6px;
+		top: 4px;
+		height: 20px;
+	}
+	
+	.logo-right-arm {
+		-webkit-animation-name: tuck-arms;
+		animation-name: tuck-arms;
+		position: absolute;
+		left: 15px;
+		top: 4px;
+		background-color: white;
+		width: 1.6px;
+		height: 11px;
+	}
+	.logo-holder {
+		position: relative;
+		width: 10px;
+		height: 26px;
+	}
+}

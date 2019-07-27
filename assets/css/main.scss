@@ -124,10 +124,10 @@ $background_image: '{{site.background_image}}';
 }
 
 .logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
-transition-property: all;
-transition-duration: 0.3s;
-transition-timing-function: ease;
-transition-delay: 0s;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
 }
 
 .gitter:hover {
@@ -139,51 +139,46 @@ transition-delay: 0s;
 
 @media only screen and (max-width: 1680px) {
 	.logo-left-arm {
-		-webkit-animation-name: tuck-arms;
-		animation-name: tuck-arms;
-		position: absolute;
-		left: px;
-		top: 0;
-		background-color: white;
-		width: 1.6px;
-		height: 15px;
+		left: 1.8px;
+		height: 12px;
 	}
 	
 	.logo-body-left {
-		-webkit-animation-name: tuck-legs;
-		animation-name: tuck-legs;
-		position: absolute;
-		background-color: white;
-		left: 5px;
-		width: 1.6px;
-		top: 4px;
-		height: 20px;
+		left: 5.7px;
+		height: 17px;
 	}
 	
 	.logo-body-right {
-		-webkit-animation-name: tuck-legs;
-		animation-name: tuck-legs;
-		position: absolute;
-		background-color: white;
-		left: 10px;
-		width: 1.6px;
-		top: 4px;
-		height: 20px;
+		left: 9.8px;
+		width: 1.8px;
+		height: 17px;
 	}
 	
 	.logo-right-arm {
-		-webkit-animation-name: tuck-arms;
-		animation-name: tuck-arms;
-		position: absolute;
-		left: 15px;
-		top: 4px;
-		background-color: white;
-		width: 1.6px;
-		height: 11px;
+		left: 13.3px;
+		height: 9px;
 	}
-	.logo-holder {
-		position: relative;
-		width: 10px;
-		height: 26px;
+}
+@media only screen and (max-width: 1680px) {
+	.logo-left-arm {
+		left: 1.8px;
+		top: 1px;
+		height: 12px;
+	}
+	
+	.logo-body-left {
+		left: 5.7px;
+		height: 17px;
+	}
+	
+	.logo-body-right {
+		left: 9.8px;
+		width: 1.8px;
+		height: 17px;
+	}
+	
+	.logo-right-arm {
+		left: 13.3px;
+		height: 9px;
 	}
 }

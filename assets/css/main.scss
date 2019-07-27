@@ -140,6 +140,7 @@ $background_image: '{{site.background_image}}';
 @media only screen and (max-width: 1680px) {
 	.logo-left-arm {
 		left: 1.8px;
+		top: 1.2px;
 		height: 12px;
 	}
 	
@@ -159,7 +160,7 @@ $background_image: '{{site.background_image}}';
 		height: 9px;
 	}
 }
-@media only screen and (max-width: 1680px) {
+@media only screen and (max-width: 1280px) {
 	.logo-left-arm {
 		left: 1.8px;
 		top: 1px;
@@ -182,3 +183,7 @@ $background_image: '{{site.background_image}}';
 		height: 9px;
 	}
 }
+@media only screen and (max-width: 980px) {
+
+}
+

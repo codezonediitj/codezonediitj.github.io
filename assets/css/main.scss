@@ -130,6 +130,10 @@ $background_image: '{{site.background_image}}';
 	transition-delay: 0s;
 }
 
+.circle {
+	display: hidden;
+}
+
 .gitter:hover {
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
 		background-color: cyan;
@@ -184,6 +188,52 @@ $background_image: '{{site.background_image}}';
 	}
 }
 @media only screen and (max-width: 980px) {
+	.logo-left-arm {
+		left: 1.8px;
+		background-color: black;
+		top: 1px;
+		height: 12px;
+	}
+	
+	.logo-body-left {
+		left: 5.7px;
+		height: 17px;
+		background-color: black;
+	}
+	
+	.logo-body-right {
+		left: 9.8px;
+		width: 1.8px;
+		height: 17px;
+		background-color: black;
+	}
+	
+	.logo-right-arm {
+		left: 13.3px;
+		height: 9px;
+		width: 1.8px;
+		background-color: black;
+	}
+	
+	.logo-holder {
+		position: relative;
+		width: 29px;
+		height: 24px;
+	}
 
+	.circle {
+		display: grid;
+		place-items: center;
+		height: 28.4px;
+		width: 28.4px;
+		// box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
+		border-radius: 50%;
+		background-color: rgb(255, 255, 255);
+	}
+	.circle:hover {
+		height: 28.4px;
+		width: 28.4px;
+		box-shadow: 2px 2px #18bfef !important;
+		// border: 1.7px solid #18bfef !important
+	}
 }
-

@@ -217,16 +217,17 @@ $background_image: '{{site.background_image}}';
 	
 	.logo-holder {
 		position: relative;
-		width: 29px;
-		height: 24px;
+		width: 20px;
+		height: 27px;
 	}
 
 	.circle {
 		display: grid;
+		margin: 0 auto;
 		place-items: center;
 		height: 28.4px;
 		width: 28.4px;
-		// box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
+		box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
 		border-radius: 50%;
 		background-color: rgb(255, 255, 255);
 	}

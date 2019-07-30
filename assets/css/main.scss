@@ -73,11 +73,14 @@ $background_image: '{{site.background_image}}';
 	// Gitter icon styling
 
 	
+
+$gitter-color: rgb(83, 194, 228);
+
 .logo-left-arm {
 	-webkit-animation-name: tuck-arms;
 	animation-name: tuck-arms;
 	position: absolute;
-	left: 0;
+	left: 0.6px;
 	top: 0;
 	background-color: white;
 	width: 1.8px;
@@ -110,7 +113,7 @@ $background_image: '{{site.background_image}}';
 	-webkit-animation-name: tuck-arms;
 	animation-name: tuck-arms;
 	position: absolute;
-	left: 15px;
+	left: 14.4px;
 	top: 4px;
 	background-color: white;
 	width: 1.8px;
@@ -132,14 +135,18 @@ $background_image: '{{site.background_image}}';
 
 .circle {
 	display: hidden;
+	box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
+	border-radius: 50%;
+	margin: 0 auto;
+	place-items: center;
+	background-color: rgb(255, 255, 255);
 }
 
 .gitter:hover {
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
-		background-color: cyan;
+		background-color: $gitter-color;
 	}
 }
-
 
 @media only screen and (max-width: 1680px) {
 	.logo-left-arm {
@@ -149,18 +156,22 @@ $background_image: '{{site.background_image}}';
 	}
 	
 	.logo-body-left {
-		left: 5.7px;
-		height: 17px;
+		left: 5.8px;
+		top: 5px;
+		height: 16px;
 	}
 	
 	.logo-body-right {
-		left: 9.8px;
+		left: 9.7px;
+		top: 5px;
 		width: 1.8px;
-		height: 17px;
+		height: 16px;
 	}
 	
 	.logo-right-arm {
 		left: 13.3px;
+		top: 5px;
+
 		height: 9px;
 	}
 }
@@ -189,52 +200,116 @@ $background_image: '{{site.background_image}}';
 }
 @media only screen and (max-width: 980px) {
 	.logo-left-arm {
-		left: 1.8px;
+		left: 9.8px;
 		background-color: black;
-		top: 1px;
+		top: 4px;
 		height: 12px;
 	}
 	
 	.logo-body-left {
-		left: 5.7px;
-		height: 17px;
-		background-color: black;
+		left: 12.8px;
+		height: 15px;
+		top: 7px;
+	    background-color: black;
 	}
 	
 	.logo-body-right {
-		left: 9.8px;
+		left: 15.3px;
 		width: 1.8px;
-		height: 17px;
+		height: 15px;
+		top: 7px;
 		background-color: black;
 	}
 	
 	.logo-right-arm {
-		left: 13.3px;
+		left: 18.3px;
+		top: 7px;
 		height: 9px;
 		width: 1.8px;
 		background-color: black;
 	}
 	
 	.logo-holder {
-		position: relative;
-		width: 20px;
-		height: 27px;
+		width: 26px;
+		height: 25px;
+	}
+	
+	.circle {
+		height: 28.4px;
+		width: 28.4px;
+	}
+	.gitter:hover {
+		.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+			background-color: $gitter-color;
+		}
+	
+		.circle:hover {
+			box-shadow: 0 0 0px 0 $gitter-color !important;
+			border: 2.2px solid $gitter-color !important;
+			height: 30px;
+			width: 30px;
+		}
+	}
+	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+			transition-property: all;
+			transition-duration: 0.15s;
+			transition-timing-function: ease in;
+			transition-delay: 0s;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 360px) {
+	.logo-left-arm {
+		left: 9px;
+		top: 5px;
+		height: 10px;
+	}
+	
+	.logo-body-left {
+		left: 11.6px;
+		height: 13px;
+		top: 7.5px;
+	}
+	
+	.logo-body-right {
+		left: 14.6px;
+		width: 1.8px;
+		height: 13px;
+		top: 7.5px;
+	}
+	
+	.logo-right-arm {
+		left: 17px;
+		top: 7.5px;
+		height: 7.4px;
+		width: 1.8px;
+	}
+	
+	.circle {
+		height: 25.2px;
+		width: 25.2px;
 	}
 
-	.circle {
-		display: grid;
-		margin: 0 auto;
-		place-items: center;
-		height: 28.4px;
-		width: 28.4px;
-		box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
-		border-radius: 50%;
-		background-color: rgb(255, 255, 255);
+	.gitter:hover {
+			.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+				background-color: $gitter-color;
+			}
+		
+			.circle:hover {
+
+				box-shadow: 0 0 0px 0 $gitter-color !important;
+				border: 2.2px solid $gitter-color !important;
+				height: 26.5px;
+				width: 26.5px;
+		}
 	}
-	.circle:hover {
-		height: 28.4px;
-		width: 28.4px;
-		box-shadow: 2px 2px #18bfef !important;
-		// border: 1.7px solid #18bfef !important
+	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+		transition-property: all;
+		transition-duration: 0.15s;
+		transition-timing-function: ease in;
+		transition-delay: 0s;
 	}
 }

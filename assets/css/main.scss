@@ -77,46 +77,38 @@ $background_image: '{{site.background_image}}';
 $gitter-color: rgb(83, 194, 228);
 
 .logo-left-arm {
-	-webkit-animation-name: tuck-arms;
-	animation-name: tuck-arms;
 	position: absolute;
 	left: 0.6px;
 	top: 0;
 	background-color: white;
-	width: 1.8px;
+	width: 1.9px;
 	height: 15px;
 }
 
 .logo-body-left {
-	-webkit-animation-name: tuck-legs;
-	animation-name: tuck-legs;
 	position: absolute;
 	background-color: white;
 	left: 5px;
-	width: 1.8px;
+	width: 1.9px;
 	top: 4px;
 	height: 20px;
 }
 
 .logo-body-right {
-	-webkit-animation-name: tuck-legs;
-	animation-name: tuck-legs;
 	position: absolute;
 	background-color: white;
 	left: 10px;
-	width: 1.8px;
+	width: 1.9px;
 	top: 4px;
 	height: 20px;
 }
 
 .logo-right-arm {
-	-webkit-animation-name: tuck-arms;
-	animation-name: tuck-arms;
 	position: absolute;
 	left: 14.4px;
 	top: 4px;
 	background-color: white;
-	width: 1.8px;
+	width: 1.9px;
 	height: 11px;
 }
 
@@ -135,12 +127,13 @@ $gitter-color: rgb(83, 194, 228);
 
 .circle {
 	display: hidden;
-	box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
+	// box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
 	border-radius: 50%;
 	margin: 0 auto;
 	place-items: center;
 	background-color: rgb(255, 255, 255);
 }
+
 
 .gitter:hover {
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
@@ -152,13 +145,15 @@ $gitter-color: rgb(83, 194, 228);
 	.logo-left-arm {
 		left: 1.8px;
 		top: 1.2px;
-		height: 12px;
+		width: 1.8px;
+		height: 12.2px;
 	}
 	
 	.logo-body-left {
 		left: 5.8px;
 		top: 5px;
 		height: 16px;
+		width: 1.8px;
 	}
 	
 	.logo-body-right {
@@ -171,7 +166,7 @@ $gitter-color: rgb(83, 194, 228);
 	.logo-right-arm {
 		left: 13.3px;
 		top: 5px;
-
+		width: 1.8px;
 		height: 9px;
 	}
 }
@@ -180,6 +175,7 @@ $gitter-color: rgb(83, 194, 228);
 		left: 1.8px;
 		top: 1px;
 		height: 12px;
+
 	}
 	
 	.logo-body-left {
@@ -188,8 +184,7 @@ $gitter-color: rgb(83, 194, 228);
 	}
 	
 	.logo-body-right {
-		left: 9.8px;
-		width: 1.8px;
+		left: 9.8px;;
 		height: 17px;
 	}
 	
@@ -200,43 +195,46 @@ $gitter-color: rgb(83, 194, 228);
 }
 @media only screen and (max-width: 980px) {
 	.logo-left-arm {
-		left: 9.8px;
+		left: 9.9px;
 		background-color: black;
-		top: 4px;
-		height: 12px;
+		top: 6px;
+		width: 1.8px;
+		height: 10px;
 	}
 	
 	.logo-body-left {
-		left: 12.8px;
-		height: 15px;
-		top: 7px;
+		left: 13px;
+		height: 14px;
+		width: 1.8px;
+		top: 9px;
 	    background-color: black;
 	}
 	
 	.logo-body-right {
-		left: 15.3px;
+		left: 15.6px;
 		width: 1.8px;
-		height: 15px;
-		top: 7px;
+		height: 14px;
+		top: 9px;
 		background-color: black;
 	}
 	
 	.logo-right-arm {
 		left: 18.3px;
-		top: 7px;
-		height: 9px;
-		width: 1.8px;
+		top: 9px;
+		height: 8px;
 		background-color: black;
+		width: 1.8px;
 	}
 	
 	.logo-holder {
 		width: 26px;
-		height: 25px;
+		height: 30.8px;
 	}
 	
 	.circle {
-		height: 28.4px;
-		width: 28.4px;
+		height: 30.8px;
+		border: 2px solid rgba(228, 228, 228, 0.692);
+		width: 30.8px;
 	}
 	.gitter:hover {
 		.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
@@ -244,10 +242,7 @@ $gitter-color: rgb(83, 194, 228);
 		}
 	
 		.circle:hover {
-			box-shadow: 0 0 0px 0 $gitter-color !important;
 			border: 2.2px solid $gitter-color !important;
-			height: 30px;
-			width: 30px;
 		}
 	}
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
@@ -264,33 +259,43 @@ $gitter-color: rgb(83, 194, 228);
 @media only screen and (max-width: 360px) {
 	.logo-left-arm {
 		left: 9px;
-		top: 5px;
+		top: 6px;
 		height: 10px;
 	}
 	
 	.logo-body-left {
 		left: 11.6px;
-		height: 13px;
-		top: 7.5px;
+		height: 12.5px;
+		top: 8.8px;
 	}
 	
 	.logo-body-right {
 		left: 14.6px;
 		width: 1.8px;
-		height: 13px;
-		top: 7.5px;
+		height: 12.5px;
+		top: 8.8px;
 	}
 	
 	.logo-right-arm {
 		left: 17px;
-		top: 7.5px;
-		height: 7.4px;
+		top: 8.8px;
+		height: 7px;
 		width: 1.8px;
+	}
+
+	.logo-holder {
+		width: 26px;
+		height: 28.5px;
 	}
 	
 	.circle {
-		height: 25.2px;
-		width: 25.2px;
+		height: 29px;
+		width: 29px;
+		border: 2px solid rgba(228, 228, 228, 0.692);
+		transition-property: all;
+		transition-duration: 0.15s;
+		transition-timing-function: ease in;
+		transition-delay: 0s;
 	}
 
 	.gitter:hover {
@@ -299,11 +304,7 @@ $gitter-color: rgb(83, 194, 228);
 			}
 		
 			.circle:hover {
-
-				box-shadow: 0 0 0px 0 $gitter-color !important;
-				border: 2.2px solid $gitter-color !important;
-				height: 26.5px;
-				width: 26.5px;
+				border: 2px solid $gitter-color !important;
 		}
 	}
 	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {

@@ -69,3 +69,415 @@ $background_image: '{{site.background_image}}';
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
+
+	// Gitter icon styling
+
+	
+
+$gitter-color: rgb(83, 194, 228);
+
+.logo-left-arm {
+	position: absolute;
+	left: 0.6px;
+	top: 0;
+	background-color: white;
+	width: 1.9px;
+	height: 15px;
+}
+
+.logo-body-left {
+	position: absolute;
+	background-color: white;
+	left: 5px;
+	width: 1.9px;
+	top: 4px;
+	height: 20px;
+}
+
+.logo-body-right {
+	position: absolute;
+	background-color: white;
+	left: 10px;
+	width: 1.9px;
+	top: 4px;
+	height: 20px;
+}
+
+.logo-right-arm {
+	position: absolute;
+	left: 14.4px;
+	top: 4px;
+	background-color: white;
+	width: 1.9px;
+	height: 11px;
+}
+
+.logo-holder {
+	position: relative;
+	width: 20px;
+	height: 24px;
+}
+
+.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease;
+	transition-delay: 0s;
+}
+
+.circle {
+	display: hidden;
+	// box-shadow: 0 0 2px 0 rgba(33, 41, 49, 0.39);
+	border-radius: 50%;
+	margin: 0 auto;
+	place-items: center;
+	background-color: rgb(255, 255, 255);
+}
+
+
+.gitter:hover {
+	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+		background-color: $gitter-color;
+	}
+}
+
+
+
+
+
+
+// gitter on footer
+
+$gitter-f: rgba(51, 50, 50, 0.548);
+
+.logo-left-arm-f {
+	position: absolute;
+	background-color: $gitter-f;
+	left: 1.8px;
+	top: 1.2px;
+	width: 1.8px;
+	height: 12.2px;
+}
+
+.logo-body-left-f {
+	position: absolute;
+	left: 5.8px;
+	top: 5px;
+	height: 16px;
+	width: 1.8px;
+	background-color: $gitter-f;
+}
+
+.logo-body-right-f {
+	position: absolute;
+	left: 9.7px;
+	top: 5px;
+	width: 1.8px;
+	height: 16px;
+	background-color: $gitter-f;
+}
+
+.logo-right-arm-f {
+	left: 13.3px;
+	top: 5px;
+	width: 1.8px;
+	height: 9px;
+	position: absolute;
+	background-color: $gitter-f;
+}
+
+.logo-holder-f {
+	width: 20px;
+	position: relative;
+	height: 25px;
+}
+
+.circle-f {
+	display: grid;
+	border-radius: 50%;
+	margin: 0 auto;
+	place-items: center;
+	height: 45.5px;
+	width: 45.5px;
+	border: 2.7px solid rgba(199, 199, 199, 0.486);
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease in;
+	transition-delay: 0s;
+}
+
+.gitter:hover {
+	.logo-left-arm-f, .logo-right-arm-f, .logo-body-left-f, .logo-body-right-f, .logo-right-arm-f {
+		background-color: $gitter-color;
+	}
+
+	.circle-f:hover {
+		border: 2.7px solid $gitter-color !important;
+	}
+}
+
+.logo-left-arm-f, .logo-right-arm-f, .logo-body-left-f, .logo-body-right-f, .logo-right-arm-f {
+		transition-property: all;
+		transition-duration: 0.15s;
+		transition-timing-function: ease in;
+		transition-delay: 0s;
+}
+
+@media only screen and (max-width: 1680px) {
+	.logo-left-arm {
+		left: 1.8px;
+		top: 1.2px;
+		width: 1.8px;
+		height: 12.2px;
+	}
+	
+	.logo-body-left {
+		left: 5.8px;
+		top: 5px;
+		height: 16px;
+		width: 1.8px;
+	}
+	
+	.logo-body-right {
+		left: 9.7px;
+		top: 5px;
+		width: 1.8px;
+		height: 16px;
+	}
+	
+	.logo-right-arm {
+		left: 13.3px;
+		top: 5px;
+		width: 1.8px;
+		height: 9px;
+	}
+
+	.logo-left-arm-f {
+		left: 9.5px;
+		top: 6px;
+		height: 10px;
+	}
+	
+	.logo-body-left-f {
+		left: 12.1px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-body-right-f {
+		left: 15.1px;
+		width: 1.8px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-right-arm-f {
+		left: 17.5px;
+		top: 8.8px;
+		height: 7px;
+		width: 1.8px;
+	}
+
+	.logo-holder-f {
+		width: 29px;
+		height: 28.5px;
+	}
+
+	.circle-f {
+		height: 33.5px;
+		width: 33.5px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.logo-left-arm {
+		left: 1.8px;
+		top: 1px;
+		height: 12px;
+
+	}
+	
+	.logo-body-left {
+		left: 5.7px;
+		height: 17px;
+	}
+	
+	.logo-body-right {
+		left: 9.8px;;
+		height: 17px;
+	}
+	
+	.logo-right-arm {
+		left: 13.3px;
+		height: 9px;
+	}
+
+	.logo-left-arm-f {
+		left: 9.5px;
+		top: 6px;
+		height: 10px;
+	}
+	
+	.logo-body-left-f {
+		left: 12.1px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-body-right-f {
+		left: 15.1px;
+		width: 1.8px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-right-arm-f {
+		left: 17.5px;
+		top: 8.8px;
+		height: 7px;
+		width: 1.8px;
+	}
+
+	.logo-holder-f {
+		width: 29px;
+		height: 28.5px;
+	}
+
+	.circle-f {
+		height: 31.6px;
+		width: 31.6px;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.logo-left-arm {
+		left: 9.9px;
+		background-color: black;
+		top: 6px;
+		width: 1.8px;
+		height: 10px;
+	}
+	
+	.logo-body-left {
+		left: 13px;
+		height: 14px;
+		width: 1.8px;
+		top: 9px;
+	    background-color: black;
+	}
+	
+	.logo-body-right {
+		left: 15.6px;
+		width: 1.8px;
+		height: 14px;
+		top: 9px;
+		background-color: black;
+	}
+	
+	.logo-right-arm {
+		left: 18.3px;
+		top: 9px;
+		height: 8px;
+		background-color: black;
+		width: 1.8px;
+	}
+	
+	.logo-holder {
+		width: 26px;
+		height: 30.8px;
+	}
+	
+	.circle {
+		height: 30.8px;
+		border: 2px solid rgba(228, 228, 228, 0.692);
+		width: 30.8px;
+	}
+	.gitter:hover {
+		.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+			background-color: $gitter-color;
+		}
+	
+		.circle:hover {
+			border: 2.2px solid $gitter-color !important;
+		}
+	}
+	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+			transition-property: all;
+			transition-duration: 0.15s;
+			transition-timing-function: ease in;
+			transition-delay: 0s;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 360px) {
+	.logo-left-arm {
+		left: 9px;
+		top: 6px;
+		height: 10px;
+	}
+	
+	.logo-body-left {
+		left: 11.6px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-body-right {
+		left: 14.6px;
+		width: 1.8px;
+		height: 12.5px;
+		top: 8.8px;
+	}
+	
+	.logo-right-arm {
+		left: 17px;
+		top: 8.8px;
+		height: 7px;
+		width: 1.8px;
+	}
+
+	.logo-holder {
+		width: 26px;
+		height: 28.5px;
+	}
+	
+	.circle {
+		height: 29px;
+		width: 29px;
+		border: 2px solid rgba(228, 228, 228, 0.692);
+		transition-property: all;
+		transition-duration: 0.15s;
+		transition-timing-function: ease in;
+		transition-delay: 0s;
+	}
+
+	.gitter:hover {
+			.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+				background-color: $gitter-color;
+			}
+		
+			.circle:hover {
+				border: 2px solid $gitter-color !important;
+		}
+	}
+	.logo-left-arm, .logo-right-arm, .logo-body-left, .logo-body-right, .logo-right-arm {
+		transition-property: all;
+		transition-duration: 0.15s;
+		transition-timing-function: ease in;
+		transition-delay: 0s;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

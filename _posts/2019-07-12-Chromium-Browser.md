@@ -17,5 +17,7 @@ Chromium Project also announced its Chromium OS open source Project which includ
 "It is an operating system for people who spend most of their time on the web."-Google Blog.
 
 Check out Chromium website: https://www.chromium.org/Home
+
 Download Chromium: https://download-chromium.appspot.com/
+
 Also check out the Chromium blog: https://blog.chromium.org/

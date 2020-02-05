@@ -23,7 +23,7 @@ A tablet can be understood further using the example of a table that stores web 
 Column keys are grouped into sets called column families. A column key is named using the following syntax: family: qualifier. The qualifier is the name of the referring site; the cell contents is the link text. Access control and both disk and memory accounting are performed at the column-family level. A separate column family is reserved for each type of action (for example, there is a column family that stores all web queries, a column family that stores results for images searched etc).
 Each cell in a BigTable can contain multiple versions of the same data; these versions are indexed by timestamp. Each data element uses as its BigTable timestamp the time at which the corresponding user action occurred. Personalized Search generates user profiles using a MapReduce over BigTable. These user profiles are used to personalize live search results.
 
-**Implementation:**
+**Implementation**
 
 The BigTable implementation has three major components: a library that is linked into every client, one master server, and many tablet servers.
 The master is responsible for assigning tablets to tablet servers, detecting the addition and expiration of tablet servers, balancing tablet-server load, and garbage collection of files in GFS. In addition, it handles schema changes such as table and column family creations.
